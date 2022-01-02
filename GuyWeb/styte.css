@@ -1,0 +1,103 @@
+body{
+    background-color: #014F8F;
+    color: #ffffff;
+}
+.bgimg-1{
+
+    background-image: url('bg1.jpg');
+    background-size:auto;
+    background-repeat: no-repeat;
+    
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    
+    /*box-sizing: border-box;*/
+    padding: 14px 20px;
+  }
+  
+  .item.title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  div{
+      font-family: 'Agency FB';
+  }
+  .centertxt{
+    font-size: 60px;
+    font-weight: 600;
+    min-height: 50vh;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .centertxt2{
+    font-size: 25px;
+    
+    min-height: 60vh;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  
+  }
+  .bordergs{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box ;
+  }
+  .getstart{
+    border-radius: 40px;
+    border: 1px solid #000000 ;
+    font-size: 30px;
+    margin: 0;
+    justify-content:center;
+    display: inline-block;
+    align-items: center;
+    text-align:center;
+    background-color: transparent;
+    padding: 14px 20px;
+    
+  }
+  .getstart:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+ p{
+     font-weight: bold;
+     
+ }
+ 
+ .left{
+    text-align: left
+ }
+ .container{
+     font-size: 20px;
+     max-width: 720px;
+     margin: 0 auto;
+     
+ }
+ .headmenu{
+    text-align: center;
+    font-size: 30px;
+ }
+ .preface{
+   text-align: center;
+ }
+ 

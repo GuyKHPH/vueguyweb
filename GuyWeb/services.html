@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuyWeb</title>
+    <link rel="stylesheet" href="styte.css">
+
+</head>
+<body  >
+    <div >
+        <nav class="menu-bar">
+            <div class="group">
+              <a class="item title">GUYWEB</a>
+            </div>
+            <div class="group">
+              <a class="item" href="index.html">HOME</a>
+              <a class="item" href="about.html">ABOUT</a>
+              <a class="item" href="blog.html">BLOG</a>
+              <a class="item"><p>SERVICES</p></a>
+              <a class="item" href="contrac.html">CONTRACT</a>
+      </div>
+        </nav>
+    </div>
+    <div class="container">
+      <div>
+        <p class="headmenu">
+          Services
+        </p>
+      </div>
+      <div>
+        <img src="img5.jpg" width=700 alt="Viewer tower">
+      </div>
+      <div class="container">
+        <div id="your_email">
+          <p>Enter your E-mail</p>
+          <input v-model="your_email" placeholder="abc@abmail.com">
+        </div>
+        <div id="can-help">
+          <p>Do you have anything for me to help? </p>
+          <input v-model="can_help" placeholder="What you want">
+        </div>
+        <div id="app-5">
+          <button v-on:click="clearText">Submit</button>
+        </div>
+      </div>      
+  
+    </div>
+    
+</body>
+</html>
+<script>
+  var your_email = new Vue({
+  el: '#your-email',
+  data: {
+    message: 'Enter Your Email'
+  }
+})
+var can_help = new Vue({
+  el: '#can-help',
+  data: {
+    message1: 'Do you have anything for me to help?'
+  }
+})
+var app5 = new Vue({
+  el: '#app-5',
+  data: {
+  
+  },
+  methods: {
+    clearText: function () {
+      this.window.location='services.html';
+      
+    }
+  }
+})
+</script>
